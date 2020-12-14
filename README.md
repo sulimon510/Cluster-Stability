@@ -1,6 +1,6 @@
 # Cluster stability
 
-In this project, I compute cluster stability, which is a measure of how similar a clustering on a big data set is to clusterings on subsets of that data set. For example, if a data set of 100,000 nodes yields 10 clusters, would a subset of 1,000 of the nodes yield the same cluster? This is one way to measure how robust a clustering is, and I have implemented it with a simple example in Cluster_stability.ipynb.
+In this project, I compute cluster stability, which is a measure of how similar a clustering on a big data set is to clusterings on subsets of that data set. For example, if a data set of 100,000 nodes yields 10 clusters, would a subset of 1,000 of the nodes yield the same clustering? This is one way to measure how robust a clustering is, and I have implemented it with a simple example in Cluster_stability.ipynb.
 
 The following is a description of the example used, but the functions defined in the ipynb can be used to test the robustness of any clustering of data created from any data set. 
 
