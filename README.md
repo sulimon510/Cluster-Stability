@@ -6,4 +6,4 @@ The following is a description of the example used, but the functions defined in
 
 The data given was a set of photos scraped from Instagram pages. Features are extracted from the images using TensorFlow using the VGG16 convolutional neural network (https://neurohive.io/en/popular-networks/vgg16/). Then the features are attempted to be clustered using KMeans clustering. The cluster stability algorithm first applies the clustering to the full data set, then to a large number of randomly chosen subsets of the data. The clusters are mapped to each other using the contingency matrix method. Finally an F1 score is calculated based on how well the new clusters on subsets map back to the original cluster on the full data.
 
-Kmeans produces very robust clusters for fewer than 5 clusters, but AS expected in this example, the stability of the clusters seems to drop suddenly as the number of clusters grows large. 
+Kmeans produces very robust clusters for fewer than 5 clusters, but as expected in this example, the stability of the clusters drops suddenly as the number of clusters grows large. 
